@@ -22,17 +22,18 @@ sudo sysctl -w -q fs.inotify.max_user_instances=5242880
 
 
 # Enabling CCs
-sudo sysctl -w net.ipv4.tcp_congestion_control=vegas
-sudo sysctl -w net.ipv4.tcp_congestion_control=bbr
-sudo sysctl -w net.ipv4.tcp_congestion_control=bbr2
-sudo sysctl -w net.ipv4.tcp_congestion_control=reno
-sudo sysctl -w net.ipv4.tcp_congestion_control=cdg
-sudo sysctl -w net.ipv4.tcp_congestion_control=hybla
-sudo sysctl -w net.ipv4.tcp_congestion_control=highspeed
-sudo sysctl -w net.ipv4.tcp_congestion_control=illinois
-sudo sysctl -w net.ipv4.tcp_congestion_control=westwood
-sudo sysctl -w net.ipv4.tcp_congestion_control=yeah
-sudo sysctl -w net.ipv4.tcp_congestion_control=htcp
-sudo sysctl -w net.ipv4.tcp_congestion_control=bic
-sudo sysctl -w net.ipv4.tcp_congestion_control=veno
-sudo sysctl -w net.ipv4.tcp_congestion_control=cubic
+#sudo sysctl -w net.ipv4.tcp_congestion_control
+#sudo sysctl -w net.ipv4.tcp_congestion_control=vegas
+#sudo sysctl -w net.ipv4.tcp_congestion_control=bbr
+#sudo sysctl -w net.ipv4.tcp_congestion_control=bbr2
+#sudo sysctl -w net.ipv4.tcp_congestion_control=reno
+#sudo sysctl -w net.ipv4.tcp_congestion_control=cdg
+#sudo sysctl -w net.ipv4.tcp_congestion_control=hybla
+#sudo sysctl -w net.ipv4.tcp_congestion_control=highspeed
+#sudo sysctl -w net.ipv4.tcp_congestion_control=illinois
+#sudo sysctl -w net.ipv4.tcp_congestion_control=westwood
+#sudo sysctl -w net.ipv4.tcp_congestion_control=yeah
+#sudo sysctl -w net.ipv4.tcp_congestion_control=htcp
+#sudo sysctl -w net.ipv4.tcp_congestion_control=bic
+#udo sysctl -w net.ipv4.tcp_congestion_control=veno
+#sudo sysctl -w net.ipv4.tcp_congestion_control=cubic
