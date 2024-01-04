@@ -7,7 +7,7 @@
 # install required packages
 #sudo apt-get -y install mahimahi ntp ntpdate texlive python-pip
 sudo apt-get -y install ntp ntpdate texlive python-pip
-sudo pip install matplotlib numpy tabulate pyyaml
+pip install matplotlib numpy tabulate pyyaml
 
 # install pantheon tunnel
 sudo apt-get -y install debhelper autotools-dev dh-autoreconf iptables \
